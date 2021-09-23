@@ -10,11 +10,11 @@ $flameRed: #8b0000;
 .container {
   min-height: 100vh;
   background: $flameRed;
-
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
   padding: 2rem;
   grid-gap: 1rem;
+  justify-items: center;
 }
 .grid-container {
   margin: 2rem;
@@ -76,7 +76,7 @@ $flameRed: #8b0000;
     padding: 3rem;
   }
 }
-////////////////////////////////////////////////////////////////
+// card flip
 .grid-container {
   background-color: transparent;
   width: 300px;
