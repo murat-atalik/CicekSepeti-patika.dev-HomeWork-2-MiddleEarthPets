@@ -1,4 +1,3 @@
-/* eslint-disable import/prefer-default-export */
 /* eslint max-classes-per-file: "off" */
 
 // animal classi olusturuldugu yer
@@ -66,4 +65,5 @@ const duck6 = new Duck(
   155
 );
 const ducks = [duck1, duck2, duck3, duck4, duck5, duck6];
-export const animalList = [...ducks, ...dogs];
+const animalList = [...ducks, ...dogs];
+export { animalList as default };
