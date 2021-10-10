@@ -1,6 +1,6 @@
 # Middle Earth Pets
 
-## Çiceksepeti & patika.dev Bootcamp Homework 1
+## Çiceksepeti & patika.dev Bootcamp Homework 2
 - [Demo](https://optimistic-roentgen-a0a251.netlify.app)
 - Created with pure CSS(SCSS) & JS.
 - Responsive
